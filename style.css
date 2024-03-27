@@ -1,0 +1,118 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: cursive;
+    background-color: gray;
+}
+
+.navbar{
+    background-color: rgb(41, 37, 37);
+    height: 100px;
+    width: 100%;
+}
+.logo{
+    color: white;
+    font-size: 35px;
+    line-height: 150px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+.logoImage{
+    float: left;
+    border-radius: 10px;
+    margin: 10px 50px;
+    height: 80px;
+    cursor: pointer;
+    width: 80px;
+}
+
+.logoName{
+    float: left;
+    line-height: 100px;
+    color: white;
+}
+
+.navbar ul{
+    float: right;
+    margin-right: 100px;
+}
+.navbar ul li{
+    display: inline-block;
+    line-height: 100px;
+    margin: 0 5px;
+}
+.navbar ul li a{
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+}
+a.active,a:hover{
+    background-color: rgb(70, 65, 65);
+    transition: .5s;
+}
+
+
+
+.etusivu{
+    display: flex;
+    justify-content: space-around;
+    margin: 100px;
+}
+
+.addTapahtuma{
+    background-color: rgb(73, 71, 71);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.tapahtumat{
+    background-color: rgb(73, 71, 71);
+    padding: 10px;
+    margin: 10px;
+    width: 1000px;
+    border-radius: 10px;
+}
+
+.tapahtumat p{
+    color: white;
+}
+.tapahtumat h1{
+    color: white;
+}
+.addTapahtuma h1{
+    color: white;
+}
+
+.facebook-feed-container{
+    background-color: rgb(73, 71, 71);
+    padding: 10px;
+    margin: 10px;
+    width: 1000px;
+    border-radius: 10px;
+}
+
+.facebook-feed p{
+    color: white;
+}
+
+.footer{
+    background-color: rgb(41, 37, 37);
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    height: 100px;
+}
+.footer h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    color: white;
+}
